@@ -1,14 +1,18 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import { ComponentOne, ComponentTwo, ComponentThree } from 'syed-react-lib';
 
 function App() {
   return (
     <div className="App">
+      <ComponentOne />
+      <ComponentTwo />
+      <ComponentThree />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Edit <code>src/App.js</code> and save to reload!
         </p>
         <a
           className="App-link"
