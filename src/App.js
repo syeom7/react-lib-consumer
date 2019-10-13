@@ -2,10 +2,13 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import { ComponentOne, ComponentTwo, ComponentThree } from 'syed-react-lib';
+import { Button, Header } from 'lft-react-lib';
 
 function App() {
   return (
     <div className="App">
+      <Header />
+      <Button />
       <ComponentOne />
       <ComponentTwo />
       <ComponentThree />

@@ -3,12 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "react": "^16.10.1",
-    "react-dom": "^16.10.1",
+    "lft-react-lib": "^1.0.4",
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2",
     "react-scripts": "3.1.2",
-    "syed-react-lib": "^1.0.0"
+    "syed-react-lib": "1.0.3"
   },
   "scripts": {
+    "dev": "webpack-dev-server",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -28,5 +30,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "devDependencies": {}
 }
